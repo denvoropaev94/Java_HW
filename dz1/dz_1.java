@@ -19,7 +19,7 @@ public class dz_1 {
     }
 
     public static int randomInt() {
-        int i = new Random().nextInt(-10, 10);
+        int i = new Random().nextInt(-1000, 1000);
         System.out.println(i);
         return i;
     }
